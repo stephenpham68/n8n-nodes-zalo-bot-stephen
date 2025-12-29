@@ -11,4 +11,5 @@ dist/
 .env
 .env.local
 .npmrc
+output_zalobot.json
 
