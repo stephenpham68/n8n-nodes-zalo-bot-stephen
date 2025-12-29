@@ -1,0 +1,113 @@
+Output message:
+[
+  {
+    "event_name": "message.text.received",
+    "message": {
+      "date": 1766991175055,
+      "chat": {
+        "chat_type": "PRIVATE",
+        "id": "ae800e9657c5be9be7d4"
+      },
+      "message_id": "bb5e4d6ec2a59efdc7b2",
+      "from": {
+        "id": "ae800e9657c5be9be7d4",
+        "is_bot": false,
+        "display_name": "Stephen Pham"
+      },
+      "text": "hello bạn xin chào"
+    }
+  }
+]
+
+OUTPUT PHOTO
+[
+  {
+    "event_name": "message.image.received",
+    "message": {
+      "date": 1766991205474,
+      "chat": {
+        "chat_type": "PRIVATE",
+        "id": "ae800e9657c5be9be7d4"
+      },
+      "caption": "",
+      "message_id": "3b24c72a6fe133b96af6",
+      "message_type": "CHAT_PHOTO",
+      "from": {
+        "id": "ae800e9657c5be9be7d4",
+        "is_bot": false,
+        "display_name": "Stephen Pham"
+      },
+      "photo_url": "https://f19-zpc.zdn.vn/jpg/8409517044855659231/7a1d4f479b8314dd4d92.jpg"
+    }
+  }
+]
+
+
+OUTPUT PHOTO + MESSAGE
+[
+  {
+    "event_name": "message.image.received",
+    "message": {
+      "date": 1766991247947,
+      "chat": {
+        "chat_type": "PRIVATE",
+        "id": "ae800e9657c5be9be7d4"
+      },
+      "caption": "ĐÂY LÀ TIN NHẮN TEST OUTPUT PHOTO KÈM MESSAGE",
+      "message_id": "20e93f87f14cad14f45b",
+      "message_type": "CHAT_PHOTO",
+      "from": {
+        "id": "ae800e9657c5be9be7d4",
+        "is_bot": false,
+        "display_name": "Stephen Pham"
+      },
+      "photo_url": "https://f22-zpc.zdn.vn/jpg/4980677767481040078/e384a67b73bffce1a5ae.jpg"
+    }
+  }
+]
+
+
+
+OUTPUT STICKER
+[
+  {
+    "event_name": "message.sticker.received",
+    "message": {
+      "date": 1766991272631,
+      "chat": {
+        "chat_type": "PRIVATE",
+        "id": "ae800e9657c5be9be7d4"
+      },
+      "sticker": "93ad9401a844411a1855",
+      "message_id": "c6da03bdd7768b2ed261",
+      "message_type": "CHAT_STICKER",
+      "from": {
+        "id": "ae800e9657c5be9be7d4",
+        "is_bot": false,
+        "display_name": "Stephen Pham"
+      },
+      "url": "https://zalo-api.zadn.vn/api/emoticon/oasticker?eid=3834008785714938107&size=130"
+    }
+  }
+]
+
+
+OUTPUT KHÔNG ĐƯỢC ZALO BOT HỖ TRỢ (FILE, LOCATION, ....)
+[
+  {
+    "event_name": "message.unsupported.received",
+    "message": {
+      "date": 1766991312094,
+      "chat": {
+        "chat_type": "PRIVATE",
+        "id": "ae800e9657c5be9be7d4"
+      },
+      "message_id": "dfe9ac9aa551f909a046",
+      "from": {
+        "id": "ae800e9657c5be9be7d4",
+        "is_bot": false,
+        "display_name": "Stephen Pham"
+      }
+    }
+  }
+]
